@@ -68,10 +68,7 @@ public:
   double lambda_;
 
   //Radar measurement dimension ro, phi, ro_dot
-  int n_z;
-
-  const double pi = 3.14159265358979323846;
-
+  int n_z;  
 
   /**
    * Constructor
