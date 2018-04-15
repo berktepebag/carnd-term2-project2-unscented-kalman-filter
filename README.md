@@ -35,3 +35,7 @@ Started trials with high (for a bycle) acceleration and change of yaw angle std_
 
 Tried three different situations Lidar Only, Radar Only and Lidar+Radar (Sensor Fusion) to see how the results differ. Lidar gives better result finding the exact location of the bycle while radar is obviously better at determining speed of the bycle. As expected sensor fusion (lidar+radar) gives the best results.  
 
+#### Extended Kalman vs Unscented Kalman Filter
+<img width="500" alt="Data Set 1: Detail" src="/images/extended%20kalman%20filter%20result.JPG">
+
+We can see certain amount of decrease in both VX (0.4158 -> 0.3353 and VY (0.4324 -> 0.2254). Though position estimations are close, speed estimations much better with Unscented Kalman Filter.
